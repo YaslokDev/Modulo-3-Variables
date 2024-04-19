@@ -1,11 +1,24 @@
-# Cena de cumpleaños entre amigos
+# Grupos Musicales
 
-Tienes un grupo de 6 amigos y quieres invitarlos a cenar por tu cumpleaños.
+Queremos mostrar información acerca de grupos musicales.
 
-- Solo puedes permitirte invitar a las bebidas, ya que estás un poco ajustado de dinero.
+Si estás trabajando con TypeScript habría que crear un interfaz para representar a un grupo musical.
 
-- Tienes un ticket de cena que cuesta 120 € y en el que ya se incluyen las bebidas por un valor de 18 €.
+La información de los grupos que queremos mostrar:
 
-- Calcula cuánto tendría que pagar cada comensal para dividir los costos de manera equitativa.
+- Nombre del grupo / cantante / compositor (string).
+- Año de fundación: cuando se formó el grupo (numero).
+- Si está en activo (booleano).
+- Género musical (string).
 
-- Utiliza JavaScript para hacer el cálculo y mostrar el resultado por consola.
+Cada género queremos tenerlo en una variable.
+
+Los grupos que vamos a mostrar:
+
+- The Beatles / 1960 / Activo: true / 🎵 Pop Rock
+- Queen / 1970 / Activo: false / 🎸 Rock
+- AC DC / 1973 / Activo: true / 🤘 Hard Rock
+- Ludwig van Beethoven / 1770 / Activo: false / 🎼 Clásica
+- The Rolling Stones / 1962 / Activo: true / 🎸 Rock
+
+Queremos mostrar cada grupo por consola, el nombre del grupo de música queremos ponerlo en negrita, con fuente más grande y color de fondo verde.
